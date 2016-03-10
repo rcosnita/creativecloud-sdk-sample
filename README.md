@@ -9,6 +9,8 @@
 
 # Creative Cloud SDK Workshop
 
+![Creative Cloud SDK logo - picture taken from www.premiumbeat.com](https://raw.githubusercontent.com/rcosnita/creativecloud-sdk-sample/master/doc/images/AdobeCC.jpg)
+
 ## Introducere
 
 ## Configurare
