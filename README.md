@@ -1,17 +1,25 @@
 <!-- MarkdownTOC -->
 
-- Creative Cloud SDK Workshop
+- Unleash your creativity with Adobe Creative SDK
     - Introducere
     - Configurare
 
 <!-- /MarkdownTOC -->
 
 
-# Creative Cloud SDK Workshop
+# Unleash your creativity with Adobe Creative SDK
 
-![Creative Cloud SDK logo - picture taken from www.premiumbeat.com](https://raw.githubusercontent.com/rcosnita/creativecloud-sdk-sample/master/doc/images/AdobeCC.jpg)
+![Creative Cloud logo - picture taken from http://www.premiumbeat.com](https://raw.githubusercontent.com/rcosnita/creativecloud-sdk-sample/master/doc/images/AdobeCC.jpg)
 
 ## Introducere
+
+Creative Cloud reprezinta solutia Adobe de trecere catre un model subscription based prin intermediul caruia clientii pot beneficia mult mai rapid de feature-uri noi (e.g functionalitati noi de Photoshop sau Premiere).
+
+Pe langa modelul de pricing, Adobe ofera in acest moment si un API care permite dezvoltatorilor sa creeze aplicatii noi care pot folosi programatic functionalitati din Photoshop, Illustrator, Premiere sau orice alt produs din suita Creative Cloud.
+
+Pe durata acestui workshop, vom crea o aplicatie care utilizeaza Adobe Creative SDK.
+
+![Creative Cloud SDK - picture taken from https://creativesdk.adobe.com](https://raw.githubusercontent.com/rcosnita/creativecloud-sdk-sample/master/doc/images/AdobeCreativeSdk.png)
 
 ## Configurare
 
