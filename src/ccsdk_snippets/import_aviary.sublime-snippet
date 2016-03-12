@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[<script type="text/javascript" src="http://feather.aviary.com/imaging/v3/editor.js"></script>]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>ccsdk-import</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Import CC SDK</description>
+</snippet>

@@ -12,16 +12,19 @@ Pe durata intregului workshop vom folosi snippets de cod pentru un development m
 
 ```bash
 cd creativecloud-sdk-sample
-ln -s src/sublime_snippets ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/creativecloud-snippets
+cp -R `printf "%q\n" "$(pwd)"`/src/ccsdk_snippets ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
 ```
 
 ### Windows
 
 ```bash
 cd creativecloud-sdk-sample
-cp -R src/sublime_snippets ~/AppData/Roaming/Sublime\ Text\ 3/Packages/User 
+cp -R src/ccsdk_snippets ~/AppData/Roaming/Sublime\ Text\ 3/Packages/User 
 ```
 
 # Creare editor imagini
 
 Pornind de la codul existent in **src/intro/intro.html** vom adauga suport pentru editorul de imagini furnizat de **Creative Cloud SDK**.
+
+1. Import aviary sdk. (ccsdk-import)
+1. Enable image editor. (ccsdk-feather)
