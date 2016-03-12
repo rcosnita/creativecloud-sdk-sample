@@ -23,9 +23,9 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>ccsdk-activate-crop</tabTrigger>
+    <tabTrigger>ccsdk-activate-editor</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>text.html</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Activate CC SDK crop</description>
+    <description>Activate CC SDK editor</description>
 </snippet>
