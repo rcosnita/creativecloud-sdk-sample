@@ -5,6 +5,31 @@
 
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <script type="text/javascript" src="/config.js"></script>
+    <script type="text/javascript" src="http://feather.aviary.com/imaging/v3/editor.js"></script>
+
+    <script type="text/javascript">
+    var featherEditor = new Aviary.Feather({
+        apiKey: window.WorkshopConfig.apiKey,
+        onSave: function(imageID, newURL) {
+            var img = document.getElementById(imageID);
+            img.src = newURL;
+        }
+    });
+    
+    function initApp() {
+        document.getElementById("editableImage").addEventListener("click", function() {
+            featherEditor.launch({
+                "image": this.id,
+                "tools": ["crop", "focus"],
+                "url": this.src
+            });
+        });
+    }
+    
+    document.addEventListener("DOMContentLoaded", function() {
+        initApp();
+    });
+    </script>
 </head>
 <body>
     <img id="editableImage" src="images/ase.jpg" />

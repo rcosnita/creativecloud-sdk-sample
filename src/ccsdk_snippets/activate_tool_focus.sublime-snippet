@@ -1,9 +1,9 @@
 <snippet>
-    <content><![CDATA[                "tools": ["crop"],]]></content>
+    <content><![CDATA[                "tools": ["crop", "focus"],]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>ccsdk-activate-crop</tabTrigger>
+    <tabTrigger>ccsdk-activate-focus</tabTrigger>
     <!-- Optional: Scope the tab trigger will be active in -->
     <scope>text.html</scope>
     <!-- Optional: Description to show in the menu -->
-    <description>Activate CC SDK crop tool.</description>
+    <description>Activate CC SDK focus tool.</description>
 </snippet>
