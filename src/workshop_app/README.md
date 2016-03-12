@@ -4,7 +4,7 @@ Acest folder reprezinta locatia unde fiecare echipa va comite proiectul la care 
 
 ```bash
 cd creativecloud-sdk-sample
-git checkout team-<your team number>
+git checkout team<your team number>
 ```
 
 In acest moment puteti incepe sa comiteti toate modificarile pe care le faceti in acest branch.
