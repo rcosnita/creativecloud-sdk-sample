@@ -50,5 +50,7 @@ In continuare, trebuie urmati pasii de mai jos pentru a avea solutia de la care 
     cd ~
     git clone https://github.com/rcosnita/creativecloud-sdk-sample.git
     cd creativecloud-sdk-sample
+    npm install -d
     node node_modules/.bin/http-server .
+    open http://localhost:8080/intro/intro.html (pentru Windows sau Linux deschideti URL-ul din Chrome)
     ```
