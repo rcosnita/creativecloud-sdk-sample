@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[                "tools": ["crop"],]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>ccsdk-activate-crop</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Activate CC SDK editor</description>
+</snippet>

@@ -26,5 +26,6 @@ cp -R src/ccsdk_snippets ~/AppData/Roaming/Sublime\ Text\ 3/Packages/User/
 
 Pornind de la codul existent in **src/intro/intro.html** vom adauga suport pentru editorul de imagini furnizat de **Creative Cloud SDK**.
 
-1. Import aviary sdk. (ccsdk-import)
-1. Activarea uneltei de crop. (ccsdk-activate-editor)
+1. Import CC SDK. (ccsdk-import)
+1. Activarea editorului. (ccsdk-activate-editor)
+1. Activarea uneltei de crop. (ccsdk-activate-crop)
