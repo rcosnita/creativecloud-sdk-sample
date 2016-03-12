@@ -19,7 +19,7 @@ cp -R `printf "%q\n" "$(pwd)"`/src/ccsdk_snippets ~/Library/Application\ Support
 
 ```bash
 cd creativecloud-sdk-sample
-cp -R src/ccsdk_snippets ~/AppData/Roaming/Sublime\ Text\ 3/Packages/User 
+cp -R src/ccsdk_snippets ~/AppData/Roaming/Sublime\ Text\ 3/Packages/User/
 ```
 
 # Creare editor imagini
@@ -27,4 +27,4 @@ cp -R src/ccsdk_snippets ~/AppData/Roaming/Sublime\ Text\ 3/Packages/User
 Pornind de la codul existent in **src/intro/intro.html** vom adauga suport pentru editorul de imagini furnizat de **Creative Cloud SDK**.
 
 1. Import aviary sdk. (ccsdk-import)
-1. Enable image editor. (ccsdk-feather)
+1. Activarea uneltei de crop. (ccsdk-feather-crop)

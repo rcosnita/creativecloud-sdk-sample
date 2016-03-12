@@ -1,0 +1,31 @@
+<snippet>
+    <content><![CDATA[<script type="text/javascript">
+var featherEditor = new Aviary.Feather({
+    apiKey: window.WorkshopConfig.apiKey,
+    onSave: function(imageID, newURL) {
+        var img = document.getElementById(imageID);
+        img.src = newURL;
+    }
+});
+
+function initApp() {
+    document.getElementById("editableImage").addEventListener("click", function() {
+        featherEditor.launch({
+            "image": this.id,
+            "tools": [],
+            "url": this.src
+        });
+    });
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    initApp();
+});
+</script>]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>ccsdk-activate-crop</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Activate CC SDK crop</description>
+</snippet>
