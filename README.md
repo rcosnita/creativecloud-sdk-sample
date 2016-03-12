@@ -45,12 +45,26 @@ In continuare, trebuie urmati pasii de mai jos pentru a avea solutia de la care 
 
 1. Deschideti un terminal specific sistemului de operare (!!!! Pentru windows folositi git bash).
 1. Executati comenzile de mai jos:
-    
+
+#### Mac OS X
+
     ```bash
     cd ~
     git clone https://github.com/rcosnita/creativecloud-sdk-sample.git
     cd creativecloud-sdk-sample
     npm install -d
-    node node_modules/.bin/http-server .
-    open http://localhost:8080/intro/intro.html (pentru Windows sau Linux deschideti URL-ul din Chrome)
+    node node_modules/.bin/http-server src
+    open http://localhost:8080/intro/intro.html
     ```
+
+#### Windows
+
+    ```bash
+    cd ~
+    git clone https://github.com/rcosnita/creativecloud-sdk-sample.git
+    cd creativecloud-sdk-sample
+    npm install -d
+    node_modules/.bin/http-server src
+    ```
+
+Deschideti in Chrome http://localhost:8080/intro/intro.html
