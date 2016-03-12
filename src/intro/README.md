@@ -1,3 +1,12 @@
+<!-- MarkdownTOC -->
+
+- Partea 1 - Introducere workshop
+    - Activare snippets in Sublime
+- Creare editorului de imagini
+    - Customizarea editorului de imagini
+
+<!-- /MarkdownTOC -->
+
 # Partea 1 - Introducere workshop
 
 In aceasta parte introductiva din workshop vom crea o aplicatie care permite editarea de poze (aplicare de efecte, imbunatatire lumini, etc ...).
